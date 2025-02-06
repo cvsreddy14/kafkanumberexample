@@ -1,0 +1,33 @@
+kafka-example
+│
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── cvsreddy
+│   │   │           └── kafkaexample
+│   │   │               ├── KafkaApplication.java
+│   │   │               ├── controller
+│   │   │               │   └── NumberController.java
+│   │   │               ├── consumer
+│   │   │               │   └── KafkaConsumerService.java
+│   │   │               └── producer
+│   │   │                   └── KafkaProducerService.java
+│   │   ├── resources
+│   │   │   ├── application.properties
+│   │   │   └── static
+│   │   │       └── index.html
+│   │   └── webapp
+│   └── test
+│       └── java
+│           └── com
+│               └── cvsreddy
+│                   └── kafkaexample
+│                       ├── KafkaApplicationTests.java
+│                       └── KafkaProducerServiceTests.java
+│
+├── .gitignore
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── README.md
